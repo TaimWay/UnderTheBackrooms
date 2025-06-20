@@ -1,0 +1,14 @@
+{
+  "block.backrooms.level0_wall": "Level0 Wall",
+  "block.backrooms.level0_carpet": "Level0 Carpet",
+  "block.backrooms.level0_ceiling": "Level0 Ceiling",
+  "block.backrooms.level0_light": "Level0 Fluorescent lamp",
+  "block.backrooms.level1_floor": "Level1 Floor",
+  "block.backrooms.level1_wall": "Level1 Wall",
+  "block.backrooms.level1_ceiling": "Level1 Ceiling",
+
+  "creative_tab.backrooms_block": "Building Block - ",
+
+  "advancements.backrooms.root.title": "UNDER THE BACKROOMS - The Land of Death",
+  "advancements.backrooms.root.description": "Is there anyone?..."
+}

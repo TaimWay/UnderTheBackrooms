@@ -1,5 +1,8 @@
 package com.aplcexenicesetrl.backrooms;
 
+import com.aplcexenicesetrl.backrooms.assets.block.ModBlock;
+import com.aplcexenicesetrl.backrooms.assets.creativetab.ModCreativeTab;
+import com.aplcexenicesetrl.backrooms.assets.item.ModItem;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -25,6 +28,10 @@ public class UnderTheBackrooms
         IEventBus modEventBus = context.getModEventBus();
 
         modEventBus.addListener(this::commonSetup);
+
+        ModBlock.register(modEventBus);
+        ModItem.register(modEventBus);
+        ModCreativeTab.register(modEventBus);
 
         MinecraftForge.EVENT_BUS.register(this);
 

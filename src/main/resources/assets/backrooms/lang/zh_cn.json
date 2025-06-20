@@ -1,0 +1,15 @@
+{
+  "block.backrooms.level0_wall": "楼层0 墙壁",
+  "block.backrooms.level0_carpet": "楼层0 地毯",
+  "block.backrooms.level0_ceiling": "楼层0 天花板",
+  "block.backrooms.level0_light": "楼层0 日光灯",
+  "block.backrooms.level0_walls": "楼层0 围墙",
+  "block.backrooms.level1_floor": "楼层1 地板",
+  "block.backrooms.level1_wall": "楼层1 墙壁",
+  "block.backrooms.level1_ceiling": "楼层1 天花板",
+
+  "creative_tab.backrooms_block": "建筑方块 - 后室之下",
+
+  "advancements.backrooms.root.title": "后室之下 - 死亡之地",
+  "advancements.backrooms.root.description": "有..人吗？..."
+}
