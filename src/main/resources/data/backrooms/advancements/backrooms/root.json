@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "entered_end": {
+      "conditions": {
+        "to": "backrooms:backrooms"
+      },
+      "trigger": "minecraft:changed_dimension"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "backrooms:textures/gui/advancements/backgrounds/backrooms.png",
+    "description": {
+      "translate": "advancements.backrooms.root.description"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "backrooms:level0_wall"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancements.backrooms.root.title"
+    }
+  },
+  "sends_telemetry_event": true
+}
