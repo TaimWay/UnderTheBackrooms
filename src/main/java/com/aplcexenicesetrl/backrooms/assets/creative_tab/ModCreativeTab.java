@@ -1,4 +1,4 @@
-package com.aplcexenicesetrl.backrooms.assets.creativetab;
+package com.aplcexenicesetrl.backrooms.assets.creative_tab;
 
 import com.aplcexenicesetrl.backrooms.assets.block.ModBlock;
 import net.minecraft.core.registries.Registries;
@@ -15,7 +15,7 @@ import static com.aplcexenicesetrl.backrooms.UnderTheBackrooms.MOD_ID;
 public class ModCreativeTab {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> EXAMPLE_TAB = CREATIVE_MODE_TABS.register("backrooms_block", () -> CreativeModeTab.builder()
+    public static final RegistryObject<CreativeModeTab> CREATIVE_BACKROOMS_BUILDING = CREATIVE_MODE_TABS.register("backrooms_block", () -> CreativeModeTab.builder()
             .title(Component.translatable("creative_tab.backrooms_block"))
             .withTabsBefore(CreativeModeTabs.COMBAT)
             .icon(() -> new ItemStack(ModBlock.LEVEL0_WALL.get()))
