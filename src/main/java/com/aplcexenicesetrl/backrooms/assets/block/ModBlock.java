@@ -52,8 +52,8 @@ public class ModBlock {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE).strength(255f, 255f)));
 
     public static final RegistryObject<Block> LEVEL1_FLOOR = registerBlock("level1_floor",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CARPET).strength(255f, 255f)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE).strength(255f, 255f)));
 
     public static final RegistryObject<Block> LEVEL1_CEILING = registerBlock("level1_ceiling",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).strength(255f, 255f)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.WHITE_CONCRETE).strength(255f, 255f)));
 }
